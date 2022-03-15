@@ -22,7 +22,7 @@ export default function Navbar() {
         <div className="flex flex-col">
           <Link href="/">
             <a>
-              <h1 className="font-semibold text-xl dark:text-gray-100">
+              <h1 className="font-semibold text-xl dark:text-gray-100 hover:text-gray-500 dark:hover:text-orange-200 dark:hover:text-gray-600">
                 {userData.name}
               </h1>
               <p className="text-base font-light text-gray-500 dark:text-gray-300">
@@ -37,11 +37,11 @@ export default function Navbar() {
             <a
               className={`text-base  ${
                 router.asPath === "/about"
-                  ? "text-gray-800 font-bold dark:text-gray-400"
-                  : "text-gray-600 dark:text-gray-300 font-normal "
+                  ? "text-gray-800 font-bold dark:text-gray-400 hover:text-gray-500 dark:hover:text-gray-700"
+                  : "text-gray-600 dark:text-gray-300 font-normal hover:text-gray-900 dark:hover:text-gray-700"
               }`}
             >
-              About{" "}
+              About Me{" "}
               {router.asPath === "/about" && (
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

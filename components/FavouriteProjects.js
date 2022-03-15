@@ -3,9 +3,9 @@ import Link from "next/link";
 
 export default function FavouriteProjects() {
   return (
-    <div className="bg-[#F1F1F1] -mt-40 dark:bg-gray-900">
+    <div className="bg-[#F1F1F1] mt-40 dark:bg-gray-900">
       <div className="max-w-6xl mx-auto">
-        <header className="flex flex-col md:flex-row justify-between items-center pt-40 md:my-20 lg:my-0">
+        <header className="flex flex-col md:flex-row justify-between items-center pt-20 md:my-20 lg:my-0">
           <h1 className="text-5xl lg:text-9xl max-w-lg font-bold text-gray-500 my-20 md:my-0 md:text-white dark:text-gray-600 text-center">
             Projects
           </h1>
@@ -72,7 +72,31 @@ export default function FavouriteProjects() {
                   <p className="pt-2 pb-2 leading-5 text-gray-500 dark:text-gray-300">Shopify, HTML, CSS, Branding</p>
                 </div>
                 <a className="mb-4 hover:shadow" href="https://shop.jamiestyle-japan.com/" aria-label="PetSitter" target="_blank" rel="noopener noreferrer">
-
+                <div className="pt-5 flex justify-center relative">
+                    <img className="transform object-cover shadow-2xl" src="/jamie.jpg" alt="imax reform" />
+                    <div className="hover:bg-gray-300  transition duration-300 absolute bottom-0 top-4 right-0 left-0 hover:opacity-25"></div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          {/* Single Card */}
+          <div className="flex flex-col justify-center items-start max-w-3xl mx-auto mb-2" >
+            <div className="flex items-center border border-gray-300 dark:border-gray-800 rounded p-4 mb-5">
+              <div>
+                <h4 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-gray-100">IMAX reform / WEB Design & Development</h4>
+                <p className="pt-2 pb-2 leading-5 text-gray-700 dark:text-gray-300">Created a landing page for new service for IMAX reform group based in Japan. Used HTML & Vanila CSS and made responsive design.</p>
+                <div className="flex justify-start">
+                  <a href="https://imax.jp/reform/" target="_blank" rel="noreferrer" className="mr-2 py-1 px-2 text-white rounded-lg bg-gray-600 shadow-lg block md:inline-block">Live</a>
+                </div>
+                <div className="pt-2 flex md:flex-row space-x-2">
+                  <p className="pt-2 pb-2 leading-5 text-gray-500 dark:text-gray-300">HTML, CSS, WordPress</p>
+                </div>
+                <a className="mb-4 hover:shadow" href="https://imax.jp/reform/" aria-label="PetSitter" target="_blank" rel="noopener noreferrer">
+                  <div className="pt-5 flex justify-center relative">
+                    <img className="transform object-cover shadow-2xl" src="/imax.jpg" alt="imax reform" />
+                    <div className="hover:bg-gray-300  transition duration-300 absolute bottom-0 top-4 right-0 left-0 hover:opacity-25"></div>
+                  </div>
                 </a>
               </div>
             </div>

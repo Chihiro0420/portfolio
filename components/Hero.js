@@ -22,7 +22,6 @@ export default function Hero() {
           </RainbowHighlight>
         </RoughNotationGroup>
         <p className="py-4">I'm a Web Developer in Auckland. I have the ability to learn and collaborate in a rapidly changing environment and compositions.</p>
-        <p className="pb-4">I am a curious person and I like learning. I enjoy working in a team environment but I work well on my own too. <br></br>Before becoming a web developer, I had experience customer service in tourism industry and working under pressure. <br></br>From those experiences, I am adaptable to change and new ways of working quickly and easily.</p>
       </div>
     </div>
   );

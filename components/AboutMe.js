@@ -80,6 +80,10 @@ export default function AboutMe() {
               >
              I am a curious person and I like learning. <br></br>I enjoy working in a team environment but I work well on my own too. <br></br>Before becoming a web developer, I had experience customer service in tourism industry and working under pressure. From those experiences, I am adaptable to change and new ways of working quickly and easily.
               </p>
+              <p className="text-xl text-gray-700 mb-4 dark:text-gray-300 ">
+              When I am not behind the keyboard, I enjoy hiking and having a BBQ with my family and friends near beach.
+              I love like doing Yoga to be relaxed and having a flatwhite at a cafe too.
+              </p>
 
 
             <h1 className="text-3xl rounded-md px-2 py-1 inline-block font-bold text-gray-700 dark:text-gray-200">

@@ -5,94 +5,84 @@ export default function FavouriteProjects() {
   return (
     <div className="bg-[#F1F1F1] -mt-40 dark:bg-gray-900">
       <div className="max-w-6xl mx-auto">
-        <header className="flex flex-col md:flex-row justify-between items-center pt-40 mx-10 md:my-20 lg:my-0">
-          <h1 className="text-6xl lg:text-9xl max-w-lg font-bold text-gray-500 my-20 md:my-0 md:text-white dark:text-gray-600 text-center">
-            Favourite Projects
+        <header className="flex flex-col md:flex-row justify-between items-center pt-40 md:my-20 lg:my-0">
+          <h1 className="text-5xl lg:text-9xl max-w-lg font-bold text-gray-500 my-20 md:my-0 md:text-white dark:text-gray-600 text-center">
+            Projects
           </h1>
-          <Link href="/projects">
-            <a className="mb-20 md:mb-0 px-8 py-4 rounded-md bg-white shadow-lg text-xl font-semibold flex flex-row space-x-4 items-center dark:text-gray-700">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="16"
-                height="16"
-                fill="currentColor"
-                className="bi bi-arrow-up-right-square"
-                stroke="4"
-                strokeWidth="4"
-                viewBox="0 0 16 16"
-              >
-                <path
-                  fillRule="evenodd"
-                  d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm5.854 8.803a.5.5 0 1 1-.708-.707L9.243 6H6.475a.5.5 0 1 1 0-1h3.975a.5.5 0 0 1 .5.5v3.975a.5.5 0 1 1-1 0V6.707l-4.096 4.096z"
-                />
-              </svg>
-              <p>View all</p>
-            </a>
-          </Link>
         </header>
 
         {/* Grid starts here */}
-        <div className="grid md:grid-cols-3 gap-8 lg:-mt-8 pb-40">
-          {/* Single card */}
-          <a
-            href="https://tailwindmasterkit.com"
-            className="w-full block col-span-3 shadow-2xl"
-          >
-            <div className="relative overflow-hidden">
-              <img
-                src="/tmk.jpg"
-                alt="portfolio"
-                className="transform hover:scale-125 transition duration-2000 ease-out"
-              />
-              <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-red-500 rounded-md px-2">
-                Tailwind Master Kit
-              </h1>
-              <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
-                01
-              </h1>
+        <div className="grid md:grid-cols-2 gap-8 lg:mt-8 pb-40">
+          {/* Single Card */}
+          <div className="flex flex-col justify-center items-start max-w-3xl mx-auto mb-2" >
+            <div className="flex items-center border border-gray-300 dark:border-gray-800 rounded p-4 mb-5">
+              <div>
+                <h4 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-gray-100">PetSitter / WEB APP</h4>
+                <p className="pt-2 pb-2 leading-5 text-gray-700 dark:text-gray-300">An app to connect pet owners with other pet lovers/services that are willing to provide the certain pet services.</p>
+
+                <div className="flex justify-start">
+                  <a href="https://petsitter-2022.herokuapp.com/" target="_blank" rel="noreferrer" className="mr-2 py-1 px-2 text-white rounded-lg bg-gray-600 shadow-lg block md:inline-block">Demo</a>
+
+                  <a href="https://github.com/Chihiro0420/PetSitter" target="_blank" rel="noreferrer" className="py-1 px-2 text-white rounded-lg bg-gray-600 shadow-lg block md:inline-block">Code
+                  </a>
+                </div>
+                <div className="pt-2 flex md:flex-row space-x-2">
+                  <p className="pt-2 pb-2 leading-5 text-gray-500 dark:text-gray-300">JavaScript, React, Redux, HTML, CSS, SASS, Auth0, SQL, REST APIs</p>
+                </div>
+                <a className="mb-4 hover:shadow" href="https://petsitter-2022.herokuapp.com/" aria-label="PetSitter" target="_blank" rel="noopener noreferrer">
+                  <div className="pt-5 flex justify-center relative">
+                    <img className="transform object-cover shadow-2xl" src="https://user-images.githubusercontent.com/88119709/157583527-ef14044c-32dc-42be-b540-644397c4db72.png" alt="" />
+                    <div class="hover:bg-gray-300  transition duration-300 absolute bottom-0 top-4 right-0 left-0 hover:opacity-25"></div>
+                  </div>
+                </a>
+              </div>
             </div>
-          </a>
-          {/* Single card */}
-          <a
-            href="https://placeholdertech.in"
-            className="w-full block col-span-3  sm:col-span-2 shadow-2xl"
-          >
-            <div className="relative overflow-hidden">
-              {/* <div className="overlay absolute inset-0 bg-black bg-opacity-70 z-10"></div> */}
-              <img
-                src="/placeholdertech.png"
-                alt="portfolio"
-                className="transform hover:scale-125 transition duration-2000 ease-out"
-              />
-              <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-red-500 rounded-md px-2">
-                PlaceholderTech
-              </h1>
-              <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
-                02
-              </h1>
+          </div>
+          {/* Single Card */}
+          <div className="flex flex-col justify-center items-start max-w-3xl mx-auto mb-2" >
+            <div className="flex items-center border border-gray-300 dark:border-gray-800 rounded p-4 mb-5">
+              <div>
+                <h4 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-gray-100">THE COTTAGE / WEB Design & Development</h4>
+                <p className="pt-2 pb-2 leading-5 text-gray-700 dark:text-gray-300">The website was the launching point for getting her one-woman business off the ground in Japan. I am currently working on eCommerce website usign Shopify for her business.</p>
+                <div className="flex justify-start">
+                  <a href="https://thecottage.co.jp/" target="_blank" rel="noreferrer" className="mr-2 py-1 px-2 text-white rounded-lg bg-gray-600 shadow-lg block md:inline-block">Live</a>
+                </div>
+                <div className="pt-2 flex md:flex-row space-x-2">
+                  <p className="pt-2 pb-2 leading-5 text-gray-500 dark:text-gray-300">WordPress, HTML, CSS, Adobe XD</p>
+                </div>
+                <a className="mb-4 hover:shadow" href="https://thecottage.co.jp/" aria-label="PetSitter" target="_blank" rel="noopener noreferrer">
+                  <div className="pt-5 flex justify-center relative">
+                    <img className="transform object-cover shadow-2xl" src="/cottage.jpg" alt="the cottage" />
+                    <div class="hover:bg-gray-300  transition duration-300 absolute bottom-0 top-4 right-0 left-0 hover:opacity-25"></div>
+                  </div>
+                </a>
+              </div>
             </div>
-          </a>
-          {/* Single card */}
-          <a
-            href="https://manuarora.in"
-            className="w-full block col-span-3 sm:col-span-1  object-cover"
-          >
-            <div className="relative overflow-hidden shadow-2xl">
-              {/* <div className="overlay absolute inset-0 bg-black bg-opacity-70 z-10"></div> */}
-              <img
-                src="/portfolio.png"
-                alt="portfolio"
-                className="transform hover:scale-125 transition duration-2000 ease-out object-cover shadow-2xl"
-              />
-              <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-red-500 rounded-md px-2">
-                Portfolio
-              </h1>
-              <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
-                03
-              </h1>
+          </div>
+          {/* Single Card */}
+          <div className="flex flex-col justify-center items-start max-w-3xl mx-auto mb-2" >
+            <div className="flex items-center border border-gray-300 dark:border-gray-800 rounded p-4 mb-5">
+              <div>
+                <h4 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-gray-100">Jamie Style / WEB Design & Development</h4>
+                <p className="pt-2 pb-2 leading-5 text-gray-700 dark:text-gray-300">Jamie Style is sustainable and ethical underwear brands in Japan. I created the eCommerce website for this businnes to have better user experience and good marketing strategy.</p>
+                <div className="flex justify-start">
+                  <a href="https://shop.jamiestyle-japan.com/" target="_blank" rel="noreferrer" className="mr-2 py-1 px-2 text-white rounded-lg bg-gray-600 shadow-lg block md:inline-block">Live</a>
+                </div>
+                <div className="pt-2 flex md:flex-row space-x-2">
+                  <p className="pt-2 pb-2 leading-5 text-gray-500 dark:text-gray-300">Shopify, HTML, CSS, Branding</p>
+                </div>
+                <a className="mb-4 hover:shadow" href="https://shop.jamiestyle-japan.com/" aria-label="PetSitter" target="_blank" rel="noopener noreferrer">
+
+                </a>
+              </div>
             </div>
-          </a>
+          </div>
+          {/*  */}
+
         </div>
+
+
+
       </div>
     </div>
   );

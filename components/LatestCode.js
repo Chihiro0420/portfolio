@@ -20,7 +20,7 @@ export default function LatestCode({ repositories }) {
           </h1>
 
           <a
-            href={`https://github.com/${userData.githubUsername}`}
+            href="https://github.com/Chihiro0420"
             className="mb-20 md:mb-0 px-8 py-4 rounded-md bg-white shadow-lg text-xl font-semibold flex flex-row space-x-4 items-center dark:text-gray-700"
           >
             <svg
@@ -45,26 +45,15 @@ export default function LatestCode({ repositories }) {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto px-10 lg:-mt-10 gap-y-20">
         {/* Single github Repo */}
 
-        {repos &&
-          repos.map((latestRepo, idx) => (
-            <GithubRepoCard latestRepo={latestRepo} key="idx" />
-          ))}
-      </div>
-    </section>
-  );
-}
-
-const GithubRepoCard = ({ latestRepo }) => {
-  return (
-    <div className="github-repo">
+        <div className="github-repo">
       <h1 className="font-semibold text-xl dark:text-gray-200 text-gray-700">
-        {latestRepo.name}
+        PetSitter
       </h1>
       <p className="text-base font-normal my-4 text-gray-500">
-        {latestRepo.description}
+      An app to connect pet owners with other pet lovers/services that are willing to provide the certain pet services.
       </p>
       <a
-        href={latestRepo.clone_url}
+        href="https://github.com/Chihiro0420/PetSitter"
         className="font-semibold group flex flex-row space-x-2 w-full items-center"
       >
         <p>View Repository </p>
@@ -73,5 +62,8 @@ const GithubRepoCard = ({ latestRepo }) => {
         </div>
       </a>
     </div>
+      </div>
+    </section>
   );
-};
+}
+

@@ -32,7 +32,7 @@ export default function FavouriteProjects() {
                 <a className="mb-4 hover:shadow" href="https://petsitter-2022.herokuapp.com/" aria-label="PetSitter" target="_blank" rel="noopener noreferrer">
                   <div className="pt-5 flex justify-center relative">
                     <img className="transform object-cover shadow-2xl" src="https://user-images.githubusercontent.com/88119709/157583527-ef14044c-32dc-42be-b540-644397c4db72.png" alt="" />
-                    <div class="hover:bg-gray-300  transition duration-300 absolute bottom-0 top-4 right-0 left-0 hover:opacity-25"></div>
+                    <div className="hover:bg-gray-300  transition duration-300 absolute bottom-0 top-4 right-0 left-0 hover:opacity-25"></div>
                   </div>
                 </a>
               </div>
@@ -53,7 +53,7 @@ export default function FavouriteProjects() {
                 <a className="mb-4 hover:shadow" href="https://thecottage.co.jp/" aria-label="PetSitter" target="_blank" rel="noopener noreferrer">
                   <div className="pt-5 flex justify-center relative">
                     <img className="transform object-cover shadow-2xl" src="/cottage.jpg" alt="the cottage" />
-                    <div class="hover:bg-gray-300  transition duration-300 absolute bottom-0 top-4 right-0 left-0 hover:opacity-25"></div>
+                    <div className="hover:bg-gray-300  transition duration-300 absolute bottom-0 top-4 right-0 left-0 hover:opacity-25"></div>
                   </div>
                 </a>
               </div>

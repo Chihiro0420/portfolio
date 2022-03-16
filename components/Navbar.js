@@ -116,19 +116,10 @@ export default function Navbar() {
       <div className="space-x-8 block md:hidden mt-4">
         <Link href="/about">
           <a className="text-base font-normal text-gray-600 dark:text-gray-300">
-            About
+            About Me
           </a>
         </Link>
-        <Link href="/projects">
-          <a className="text-base font-normal text-gray-600 dark:text-gray-300">
-            Projects
-          </a>
-        </Link>
-        <Link href="/experience">
-          <a className="text-base font-normal text-gray-600 dark:text-gray-300">
-            Experience
-          </a>
-        </Link>
+
       </div>
     </div>
   );

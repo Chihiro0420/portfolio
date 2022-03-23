@@ -80,6 +80,28 @@ export default function FavouriteProjects() {
               </div>
             </div>
           </div>
+          {/* Single Card */}
+          <div className="flex flex-col justify-center items-start max-w-3xl mx-auto mb-2" >
+            <div className="flex items-center border border-gray-300 dark:border-gray-800 rounded p-4 mb-5">
+              <div>
+                <h4 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-gray-100">AKL CINEMA / WEB Design & Development</h4>
+                <p className="pt-2 pb-2 leading-5 text-gray-700 dark:text-gray-300">Created an entertainment company that has several cinema complexes, each with several theatres.Tested and reflected on the usability of a website focussing on its ability to communicate its content clearly to analyse UX and UCD web design concepts.</p>
+                <div className="flex justify-start">
+                  <a href="https://cinema-opal.vercel.app/" target="_blank" rel="noreferrer" className="mr-2 py-1 px-2 text-white rounded-lg bg-gray-600 shadow-lg block md:inline-block">Live</a>
+                </div>
+                <div className="pt-2 flex md:flex-row space-x-2">
+                  <p className="pt-2 pb-2 leading-5 text-gray-500 dark:text-gray-300">HTML, CSS, Adobe XD</p>
+                </div>
+                <a className="mb-4 hover:shadow" href="https://cinema-opal.vercel.app/" aria-label="PetSitter" target="_blank" rel="noopener noreferrer">
+                  <div className="pt-5 flex justify-center relative">
+                    <img className="transform object-cover shadow-2xl" src="/cinema.jpg" alt="AKL CINEMA" />
+                    <div className="hover:bg-gray-300  transition duration-300 absolute bottom-0 top-4 right-0 left-0 hover:opacity-25"></div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+
 
           {/* Single Card */}
           <div className="flex flex-col justify-center items-start max-w-3xl mx-auto mb-2" >

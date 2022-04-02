@@ -115,9 +115,9 @@ export default function FavouriteProjects() {
                 <div className="pt-2 flex md:flex-row space-x-2">
                   <p className="pt-2 pb-2 leading-5 text-gray-500 dark:text-gray-300">Shopify, HTML, CSS, Branding</p>
                 </div>
-                <a className="mb-4 hover:shadow" href="https://shop.jamiestyle-japan.com/" aria-label="PetSitter" target="_blank" rel="noopener noreferrer">
+                <a className="mb-4 hover:shadow" href="https://shop.jamiestyle-japan.com/" aria-label="Jamie style" target="_blank" rel="noopener noreferrer">
                   <div className="pt-5 flex justify-center relative">
-                    <img className="transform object-cover shadow-2xl" src="/jamie.jpg" alt="imax reform" />
+                    <img className="transform object-cover shadow-2xl" src="/jamie.jpg" alt="Jamie Style" />
                     <div className="hover:bg-gray-300  transition duration-300 absolute bottom-0 top-4 right-0 left-0 hover:opacity-25"></div>
                   </div>
                 </a>
@@ -137,7 +137,7 @@ export default function FavouriteProjects() {
                 <div className="pt-2 flex md:flex-row space-x-2">
                   <p className="pt-2 pb-2 leading-5 text-gray-500 dark:text-gray-300">HTML, CSS, WordPress</p>
                 </div>
-                <a className="mb-4 hover:shadow" href="https://imax.jp/reform/" aria-label="PetSitter" target="_blank" rel="noopener noreferrer">
+                <a className="mb-4 hover:shadow" href="https://imax.jp/reform/" aria-label="IMAX reform" target="_blank" rel="noopener noreferrer">
                   <div className="pt-5 flex justify-center relative">
                     <img className="transform object-cover shadow-2xl" src="/imax.jpg" alt="imax reform" />
                     <div className="hover:bg-gray-300  transition duration-300 absolute bottom-0 top-4 right-0 left-0 hover:opacity-25"></div>
@@ -146,6 +146,49 @@ export default function FavouriteProjects() {
               </div>
             </div>
           </div>
+          {/* Single Card */}
+          <div className="flex flex-col justify-center items-start max-w-3xl mx-auto mb-2" >
+            <div className="flex items-center border border-gray-300 dark:border-gray-800 rounded p-4 mb-5">
+              <div>
+                <h4 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-gray-100">Instagram / Contents & Graphic Design </h4>
+                <p className="pt-2 pb-2 leading-5 text-gray-700 dark:text-gray-300">Designed and created Instagram contents for a client</p>
+                <div className="flex justify-start">
+                  <a href="https://www.instagram.com/p/CKNex6zswzT/" target="_blank" rel="noreferrer" className="mr-2 py-1 px-2 text-white rounded-lg bg-gray-600 shadow-lg block md:inline-block">Instagram</a>
+                </div>
+                <div className="pt-2 flex md:flex-row space-x-2">
+                  <p className="pt-2 pb-2 leading-5 text-gray-500 dark:text-gray-300">Adobe Cloud Photoshop, XD</p>
+                </div>
+                <a className="mb-4 hover:shadow" href="https://www.instagram.com/p/CKNex6zswzT/" aria-label="Instagram Contents" target="_blank" rel="noopener noreferrer">
+                  <div className="pt-5 flex justify-center relative">
+                    <img className="transform object-cover shadow-2xl" src="/yellfor.jpg" alt="Instagram Contents" />
+                    <div className="hover:bg-gray-300  transition duration-300 absolute bottom-0 top-4 right-0 left-0 hover:opacity-25"></div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          {/* Single Card */}
+          <div className="flex flex-col justify-center items-start max-w-3xl mx-auto mb-2" >
+            <div className="flex items-center border border-gray-300 dark:border-gray-800 rounded p-4 mb-5">
+              <div>
+                <h4 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-gray-100">Instagram / Contents & Graphic Design </h4>
+                <p className="pt-2 pb-2 leading-5 text-gray-700 dark:text-gray-300">Designed and created Instagram contents for a client</p>
+                <div className="flex justify-start">
+
+                </div>
+                <div className="pt-2 flex md:flex-row space-x-2">
+                  <p className="pt-2 pb-2 leading-5 text-gray-500 dark:text-gray-300">Adobe Cloud Photoshop, XD</p>
+                </div>
+
+                <div className="pt-5 flex justify-center relative">
+                  <img className="transform object-cover shadow-2xl" src="/instagram2.png" alt="Instagram Contents" />
+                  <div className="hover:bg-gray-300  transition duration-300 absolute bottom-0 top-4 right-0 left-0 hover:opacity-25"></div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
           {/*  */}
 
         </div>

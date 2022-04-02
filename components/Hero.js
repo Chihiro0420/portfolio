@@ -21,7 +21,7 @@ export default function Hero() {
             <h1 className="text-4xl md:text-5xl font-bold text-gray-700 dark:text-gray-200 my-2">A Programmer</h1>
           </RainbowHighlight>
         </RoughNotationGroup>
-        <p className="py-4">I'm a Web Developer in Auckland. I have the ability to learn and collaborate in a rapidly changing environment and compositions.</p>
+        <p className="py-4">I'm a Web Developer in Auckland. I have the ability to learn and collaborate in a rapidly changing environment and compositions. I love coding and creating web design.</p>
       </div>
     </div>
   );

@@ -48,7 +48,7 @@ export default function FavouriteProjects() {
                   <a href="https://yotsuba-acupunctureclinic.com/" target="_blank" rel="noreferrer" className="mr-2 py-1 px-2 text-white rounded-lg bg-gray-600 shadow-lg block md:inline-block">Live</a>
                 </div>
                 <div className="pt-2 flex md:flex-row space-x-2">
-                  <p className="pt-2 pb-2 leading-5 text-gray-500 dark:text-gray-300">HTML, CSS, WordPress, Branding</p>
+                  <p className="pt-2 pb-2 leading-5 text-gray-500 dark:text-gray-300">HTML, CSS, WordPress, Branding, SEO</p>
                 </div>
                 <a className="mb-4 hover:shadow" href="https://yotsuba-acupunctureclinic.com/" aria-label="PetSitter" target="_blank" rel="noopener noreferrer">
                   <div className="pt-5 flex justify-center relative">
@@ -69,7 +69,7 @@ export default function FavouriteProjects() {
                   <a href="https://thecottage.co.jp/" target="_blank" rel="noreferrer" className="mr-2 py-1 px-2 text-white rounded-lg bg-gray-600 shadow-lg block md:inline-block">Live</a>
                 </div>
                 <div className="pt-2 flex md:flex-row space-x-2">
-                  <p className="pt-2 pb-2 leading-5 text-gray-500 dark:text-gray-300">WordPress, HTML, CSS, Adobe XD</p>
+                  <p className="pt-2 pb-2 leading-5 text-gray-500 dark:text-gray-300">WordPress, HTML, CSS, Adobe XD, SEO</p>
                 </div>
                 <a className="mb-4 hover:shadow" href="https://thecottage.co.jp/" aria-label="PetSitter" target="_blank" rel="noopener noreferrer">
                   <div className="pt-5 flex justify-center relative">
@@ -113,7 +113,7 @@ export default function FavouriteProjects() {
                   <a href="https://shop.jamiestyle-japan.com/" target="_blank" rel="noreferrer" className="mr-2 py-1 px-2 text-white rounded-lg bg-gray-600 shadow-lg block md:inline-block">Live</a>
                 </div>
                 <div className="pt-2 flex md:flex-row space-x-2">
-                  <p className="pt-2 pb-2 leading-5 text-gray-500 dark:text-gray-300">Shopify, HTML, CSS, Branding</p>
+                  <p className="pt-2 pb-2 leading-5 text-gray-500 dark:text-gray-300">Shopify, HTML, CSS, Marketing, Branding, SEO</p>
                 </div>
                 <a className="mb-4 hover:shadow" href="https://shop.jamiestyle-japan.com/" aria-label="Jamie style" target="_blank" rel="noopener noreferrer">
                   <div className="pt-5 flex justify-center relative">
@@ -135,7 +135,7 @@ export default function FavouriteProjects() {
                   <a href="https://imax.jp/reform/" target="_blank" rel="noreferrer" className="mr-2 py-1 px-2 text-white rounded-lg bg-gray-600 shadow-lg block md:inline-block">Live</a>
                 </div>
                 <div className="pt-2 flex md:flex-row space-x-2">
-                  <p className="pt-2 pb-2 leading-5 text-gray-500 dark:text-gray-300">HTML, CSS, WordPress</p>
+                  <p className="pt-2 pb-2 leading-5 text-gray-500 dark:text-gray-300">HTML, CSS, WordPress, SEO</p>
                 </div>
                 <a className="mb-4 hover:shadow" href="https://imax.jp/reform/" aria-label="IMAX reform" target="_blank" rel="noopener noreferrer">
                   <div className="pt-5 flex justify-center relative">
